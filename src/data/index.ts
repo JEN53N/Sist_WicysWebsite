@@ -1,7 +1,7 @@
 export interface Event {
   id: string;
   title: string;
-  category: "workshop" | "lecture" | "hackathon" | "technical";
+  category: "workshop" | "lecture" | "hackathon" | "technical" | "discussion" | "competition" | "guest lecture";
   date: string;
   description: string;
   status: "past" | "upcoming";
@@ -30,7 +30,7 @@ export const events: Event[] = [
   {
     id: "2",
     title: "Mind.exe",
-    category: "Competition",
+    category: "competition",
     date: "February 03, 2026",
     description:
       "Rapid Coding Challenge - Processing at maximum speed!",
@@ -39,7 +39,7 @@ export const events: Event[] = [
   {
     id: "3",
     title: "Sentinel",
-    category: "Workshop",
+    category: "workshop",
     date: "February 03, 2026",
     description:
       "A comprehensive workshop on fundamental cybersecurity concepts!",
@@ -48,7 +48,7 @@ export const events: Event[] = [
   {
     id: "4",
     title: "Society",
-    category: "Discussion",
+    category: "discussion",
     date: "February 03, 2026",
     description:
       "A panel discussion on the societal impacts of women in cybersecurity",
@@ -57,7 +57,7 @@ export const events: Event[] = [
   {
     id: "5",
     title: "She Prevails",
-    category: "Guest Lecture",
+    category: "guest lecture",
     date: "February 03, 2026",
     description:
       "A conversation on women and cancer by Dr. Shilpa Germaine Alfred.",
