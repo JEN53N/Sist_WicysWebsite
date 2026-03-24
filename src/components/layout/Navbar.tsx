@@ -46,9 +46,9 @@ export default function Navbar() {
       {/* Logo */}
       <Link href="/" className="flex items-center">
         <img
-          src={LOGO_SRC}
+          src="/wicys-logo-new.png"
           alt="WiCyS"
-          style={{ height: 38, width: "auto" }}
+          style={{ height: 38, width: "auto", objectFit: "contain" }}
         />
       </Link>
 

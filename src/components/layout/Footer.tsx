@@ -8,16 +8,17 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
-            <Link href="/" className="flex items-center mb-4">
+            <Link href="/" className="inline-block mb-5">
               <Image
                 src="/wicys-logo-new.png"
                 alt="WiCyS Sathyabama"
-                width={110}
-                height={40}
-                className="h-10 w-auto"
+                width={160}
+                height={55}
+                className="w-40 h-auto object-contain"
+                priority
               />
             </Link>
-            <p className="text-gray-400 text-sm leading-relaxed max-w-sm">
+            <p className="text-gray-400 text-sm leading-relaxed max-w-md">
               Empowering women in cybersecurity through education, community, and hands-on experiences at Sathyabama Institute of Science and Technology, Chennai.
             </p>
             <div className="flex items-center gap-2 mt-4 text-gray-400 text-sm">

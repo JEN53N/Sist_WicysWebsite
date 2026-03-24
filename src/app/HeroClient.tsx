@@ -34,8 +34,8 @@ export default function HeroClient() {
         color: r > 0.88
           ? "rgba(167,139,250,"
           : r > 0.76
-          ? "rgba(147,197,253,"
-          : "rgba(255,255,255,",
+            ? "rgba(147,197,253,"
+            : "rgba(255,255,255,",
       };
     });
 
@@ -118,11 +118,11 @@ export default function HeroClient() {
 
 
         {/* Logo */}
-        <div className="flex justify-center mb-5">
+        <div className="flex justify-center mb-2">
           <img
-            src={LOGO_SRC}
+            src="/wicys-logo-new.png"
             alt="WiCyS – Women in CyberSecurity"
-            style={{ width: 220, height: "auto" }}
+            style={{ maxWidth: 480, width: "100%", height: "auto", objectFit: "contain" }}
           />
         </div>
 
@@ -144,11 +144,11 @@ export default function HeroClient() {
         <h1
           className="mb-5 text-white"
           style={{
-            fontFamily: "'Syne', sans-serif",
-            fontSize: "2.1rem",
+            fontFamily: "'Outfit', sans-serif",
+            fontSize: "2.5rem",
             fontWeight: 700,
-            lineHeight: 1.2,
-            letterSpacing: "-0.01em",
+            lineHeight: 1.15,
+            letterSpacing: "-0.02em",
           }}
         >
           Empowering Women in{" "}
@@ -224,12 +224,13 @@ export default function HeroClient() {
             >
               <div
                 style={{
-                  fontFamily: "'Syne', sans-serif",
-                  fontSize: "20px",
-                  fontWeight: 800,
+                  fontFamily: "'Space Grotesk', sans-serif",
+                  fontSize: "24px",
+                  fontWeight: 700,
                   color: "#fff",
                   lineHeight: 1,
-                  marginBottom: 4,
+                  marginBottom: 6,
+                  letterSpacing: "-0.03em",
                 }}
               >
                 {s.val}

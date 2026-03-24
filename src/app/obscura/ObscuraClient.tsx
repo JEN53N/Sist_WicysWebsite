@@ -681,6 +681,70 @@ export default function ObscuraClient() {
 
         <Divider />
 
+        {/* ── Our Sponsors ── */}
+        <ScrollReveal>
+          <section className="text-center">
+            <ScrollReveal delay={0.1}>
+              <h2 className="text-4xl sm:text-6xl font-black uppercase tracking-wider mb-3 font-serif">
+                <span style={{ background: "linear-gradient(to right, #ea580c, #9333ea)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>OUR</span>
+                <span style={{ color: "#fdf8ec" }}> SPONSORS</span>
+              </h2>
+              <p className="text-sm uppercase tracking-widest mb-16" style={{ color: "rgba(180,130,60,0.8)" }}>Proudly supported by industry leaders</p>
+            </ScrollReveal>
+
+            {/* Title Sponsor */}
+            <div className="mb-12">
+              <ScrollReveal delay={0.2}>
+                <p className="text-xs uppercase tracking-widest mb-4 font-semibold" style={{ color: "rgba(146,64,14,0.6)" }}>Title Sponsor</p>
+              </ScrollReveal>
+              <motion.div
+                initial={{ opacity: 0, scale: 0.95 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.8, delay: 0.3 }}
+                className="max-w-3xl mx-auto rounded-3xl p-8 sm:p-14 mb-8 flex items-center justify-center"
+                style={{ background: "linear-gradient(to bottom right, rgba(20,10,30,0.8), rgba(10,5,15,0.9))", border: "1px solid rgba(251,191,36,0.15)", boxShadow: "0 0 50px rgba(0,0,0,0.6)" }}
+              >
+                <div className="bg-white w-full max-w-[400px] aspect-[2.5/1] flex items-center justify-center p-6 shadow-inner">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src="https://placehold.co/600x200/ffffff/000000?font=montserrat&text=Title+Sponsor" alt="Title Sponsor" className="w-full h-full object-contain" />
+                </div>
+              </motion.div>
+            </div>
+
+            {/* Partners */}
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
+              {[
+                { role: "Sound Partner", img: "https://placehold.co/400x200/ffffff/000000?font=montserrat&text=Sound+Partner" },
+                { role: "Events Partner", img: "https://placehold.co/400x200/ffffff/000000?font=montserrat&text=Events+Partner" },
+                { role: "Platform Partner", img: "https://placehold.co/400x200/ffffff/000000?font=montserrat&text=Platform+Partner" },
+                { role: "Banking Partner", img: "https://placehold.co/400x200/ffffff/000000?font=montserrat&text=Banking+Partner" },
+              ].map((partner, i) => (
+                <div key={i} className="flex flex-col items-center">
+                  <ScrollReveal delay={0.1 * i}>
+                    <p className="text-[10px] sm:text-xs uppercase tracking-widest mb-3 text-center font-semibold" style={{ color: "rgba(146,64,14,0.6)" }}>{partner.role}</p>
+                  </ScrollReveal>
+                  <motion.div
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: 0.2 + (i * 0.1), duration: 0.6 }}
+                    className="w-full aspect-[4/3] rounded-2xl p-4 sm:p-5 flex items-center justify-center"
+                    style={{ background: "linear-gradient(to bottom right, rgba(20,10,30,0.7), rgba(10,5,15,0.8))", border: "1px solid rgba(251,191,36,0.1)", boxShadow: "0 10px 30px rgba(0,0,0,0.4)" }}
+                  >
+                    <div className="bg-white w-full h-full rounded-md flex items-center justify-center overflow-hidden p-2">
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img src={partner.img} alt={partner.role} className="w-full h-full object-contain" />
+                    </div>
+                  </motion.div>
+                </div>
+              ))}
+            </div>
+          </section>
+        </ScrollReveal>
+
+        <Divider />
+
         {/* ── Open the Portal ── */}
         <ScrollReveal>
           <section className="text-center">

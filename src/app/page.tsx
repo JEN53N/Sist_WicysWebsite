@@ -34,7 +34,7 @@ export default function HomePage() {
               <span className="section-label">About WiCyS</span>
               <h2
                 className="text-white mb-5"
-                style={{ fontFamily: "'Syne', sans-serif", fontSize: "1.75rem", fontWeight: 700, lineHeight: 1.2 }}
+                style={{ fontFamily: "'Outfit', sans-serif", fontSize: "1.75rem", fontWeight: 700, lineHeight: 1.2 }}
               >
                 Who We Are
               </h2>
@@ -51,13 +51,13 @@ export default function HomePage() {
               <span className="section-label">Purpose</span>
               <h2
                 className="text-white mb-6"
-                style={{ fontFamily: "'Syne', sans-serif", fontSize: "1.75rem", fontWeight: 700, lineHeight: 1.2 }}
+                style={{ fontFamily: "'Outfit', sans-serif", fontSize: "1.75rem", fontWeight: 700, lineHeight: 1.2 }}
               >
                 Mission &amp; Vision
               </h2>
 
               <div className="mb-6">
-                <h3 className="text-white mb-2" style={{ fontFamily: "'Syne', sans-serif", fontSize: "15px", fontWeight: 700 }}>
+                <h3 className="text-white mb-2" style={{ fontFamily: "'Outfit', sans-serif", fontSize: "15px", fontWeight: 700 }}>
                   Our Mission
                 </h3>
                 <p style={{ color: "#8b93a8", fontSize: "15px", lineHeight: 1.8, fontWeight: 300 }}>
@@ -66,7 +66,7 @@ export default function HomePage() {
               </div>
 
               <div>
-                <h3 className="text-white mb-2" style={{ fontFamily: "'Syne', sans-serif", fontSize: "15px", fontWeight: 700 }}>
+                <h3 className="text-white mb-2" style={{ fontFamily: "'Outfit', sans-serif", fontSize: "15px", fontWeight: 700 }}>
                   Our Vision
                 </h3>
                 <p style={{ color: "#8b93a8", fontSize: "15px", lineHeight: 1.8, fontWeight: 300 }}>
@@ -89,7 +89,7 @@ export default function HomePage() {
             <span className="section-label">History</span>
             <h2
               className="text-white mt-2 mb-2"
-              style={{ fontFamily: "'Syne', sans-serif", fontSize: "1.75rem", fontWeight: 700, lineHeight: 1.2 }}
+              style={{ fontFamily: "'Outfit', sans-serif", fontSize: "1.75rem", fontWeight: 700, lineHeight: 1.2 }}
             >
               Past Events
             </h2>
@@ -115,7 +115,7 @@ export default function HomePage() {
                       </span>
                       <span style={{ fontSize: "11px", color: "#6b7280" }}>{event.date}</span>
                     </div>
-                    <h3 className="text-white mb-1" style={{ fontFamily: "'Syne', sans-serif", fontSize: "13px", fontWeight: 700, lineHeight: 1.35 }}>
+                    <h3 className="text-white mb-1" style={{ fontFamily: "'Outfit', sans-serif", fontSize: "13px", fontWeight: 700, lineHeight: 1.35 }}>
                       {event.title}
                     </h3>
                     <p style={{ fontSize: "12px", color: "#6b7280", lineHeight: 1.6, display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical", overflow: "hidden" }}>
@@ -145,7 +145,7 @@ export default function HomePage() {
             </span>
             <h2
               className="text-white mt-2 mb-1"
-              style={{ fontFamily: "'Syne', sans-serif", fontSize: "1.75rem", fontWeight: 700, lineHeight: 1.2 }}
+              style={{ fontFamily: "'Outfit', sans-serif", fontSize: "1.75rem", fontWeight: 700, lineHeight: 1.2 }}
             >
               Upcoming Event
             </h2>
@@ -172,7 +172,7 @@ export default function HomePage() {
               >
                 ✦ Featured Event
               </span>
-              <h3 style={{ fontFamily: "'Syne', sans-serif", fontSize: "2.2rem", fontWeight: 800, color: "#fbbf24", lineHeight: 1, marginBottom: "0.4rem" }}>
+              <h3 style={{ fontFamily: "'Outfit', sans-serif", fontSize: "2.2rem", fontWeight: 800, color: "#fbbf24", lineHeight: 1, marginBottom: "0.4rem" }}>
                 OBSCURA
               </h3>
               <p style={{ color: "#d97706", fontSize: "15px", fontStyle: "italic", marginBottom: "1rem" }}>
@@ -209,7 +209,7 @@ export default function HomePage() {
             <span className="section-label">Join Us</span>
             <h2
               className="text-white mt-2 mb-4"
-              style={{ fontFamily: "'Syne', sans-serif", fontSize: "1.9rem", fontWeight: 700, lineHeight: 1.2 }}
+              style={{ fontFamily: "'Outfit', sans-serif", fontSize: "1.9rem", fontWeight: 700, lineHeight: 1.2 }}
             >
               Be Part of the <span className="gradient-text">Movement</span>
             </h2>
