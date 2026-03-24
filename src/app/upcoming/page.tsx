@@ -69,7 +69,7 @@ export default function UpcomingPage() {
                 <div className="flex flex-wrap gap-5 mb-8 text-sm" style={{ color: "#a16207" }}>
                   <div className="flex items-center gap-2">
                     <Calendar className="w-4 h-4" style={{ color: "#fbbf24" }} />
-                    February 28, 2025
+                    April 10, 2026
                   </div>
                   <div className="flex items-center gap-2">
                     <Clock className="w-4 h-4" style={{ color: "#fbbf24" }} />

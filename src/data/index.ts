@@ -94,7 +94,7 @@ export const events: Event[] = [
     id: "9",
     title: "OBSCURA – Capture The Flag",
     category: "hackathon",
-    date: "February 28, 2025",
+    date: "April 10, 2026",
     description:
       "A magical CTF experience blending cryptography, steganography, and web exploitation challenges in an enchanted theme.",
     status: "upcoming",
@@ -178,4 +178,4 @@ export const teamMembers: TeamMember[] = [
   },
 ];
 
-export const obscuraDate = new Date("2025-02-28T09:00:00");
+export const obscuraDate = new Date("2026-04-10T09:00:00");

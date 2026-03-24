@@ -1,4 +1,4 @@
-// File: C:\Users\jense\OneDrive\Documents\Antigravity Projects\WICYS\wicys-sathyabama-v8\wicys-v6\src\app\layout.tsx
+// File: C:\Users\Rajesh.P\Downloads\Sist_WicysWebsite\src\app\layout.tsx
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

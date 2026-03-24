@@ -182,7 +182,7 @@ export default function HomePage() {
                 Enter a realm where ancient ciphers meet modern cybersecurity. Cryptography, steganography, web exploitation — wrapped in an enchanted CTF unlike any other.
               </p>
               <div className="flex flex-wrap gap-5 mb-8" style={{ color: "#6b7280", fontSize: "13px" }}>
-                <span>📅 February 28, 2025</span>
+                <span>📅 April 10, 2026</span>
                 <span>🕘 9:00 AM onwards</span>
                 <span>📍 Sathyabama Institute, Chennai</span>
               </div>

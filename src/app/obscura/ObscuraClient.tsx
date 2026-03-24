@@ -464,7 +464,7 @@ export default function ObscuraClient() {
             transition={{ duration: 0.6, delay: 1.1 }}
             className="flex flex-wrap justify-center gap-3 mb-12"
           >
-            {[{ icon: "📅", label: "February 28, 2025" },{ icon: "🕘", label: "9:00 AM – 5:00 PM" },{ icon: "📍", label: "Sathyabama Institute, Chennai" }].map(({ icon, label }) => (
+            {[{ icon: "📅", label: "April 10, 2026" },{ icon: "🕘", label: "9:00 AM – 5:00 PM" },{ icon: "📍", label: "Sathyabama Institute, Chennai" }].map(({ icon, label }) => (
               <div key={label} className="flex items-center gap-2 px-4 py-2 rounded-full text-base" style={{ background: "rgba(251,191,36,0.06)", border: "1px solid rgba(251,191,36,0.15)", color: "rgba(180,130,60,0.9)" }}>
                 <span>{icon}</span><span>{label}</span>
               </div>
@@ -613,7 +613,7 @@ export default function ObscuraClient() {
             <p className="text-xl font-bold mb-1" style={{ color: "#d97706" }}>Sathyabama Institute of Science and Technology</p>
             <p className="text-base mb-5" style={{ color: "rgba(146,64,14,0.6)" }}>Jeppiaar Nagar, Rajiv Gandhi Salai, Chennai, Tamil Nadu 600119</p>
             <div className="flex flex-wrap justify-center gap-6 text-base" style={{ color: "rgba(180,130,60,0.6)" }}>
-              <span>📅 February 28, 2025</span>
+              <span>📅 April 10, 2026</span>
               <span>🕘 9:00 AM – 5:00 PM</span>
             </div>
           </div>
