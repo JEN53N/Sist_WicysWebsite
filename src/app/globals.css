@@ -16,7 +16,22 @@
   --faint: #2a2e42;
 }
 
-html { scroll-behavior: smooth; }
+/* Lenis smooth scroll styles */
+html.lenis, html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
 
 /* ── GLOBAL FONT SIZE BUMP: 17px → 19px ── */
 body {
@@ -151,4 +166,16 @@ body {
   0%, 100% { transform: scaleX(1) scaleY(1); }
   25% { transform: scaleX(0.8) scaleY(1.2); }
   75% { transform: scaleX(1.1) scaleY(0.9); }
+}
+
+/* ── Pure CSS particle/star animations (GPU-accelerated, zero React overhead) ── */
+@keyframes particlePulse {
+  0%, 100% { opacity: 0; transform: scale(0.5); }
+  30% { opacity: var(--max-opacity, 0.5); transform: scale(1.1); }
+  60% { opacity: calc(var(--max-opacity, 0.5) * 0.7); transform: scale(0.9); }
+}
+
+@keyframes starTwinkle {
+  0%, 100% { opacity: 0.15; }
+  50% { opacity: var(--star-opacity, 0.5); }
 }

@@ -1,16 +1,11 @@
-import type { Metadata } from "next";
+"use client";
 
-export const metadata: Metadata = {
-  title: "OBSCURA: The Forbidden Cipher | WiCyS CTF",
-  description:
-    "OBSCURA — A Magical Capture The Flag Experience. Enter the realm where ancient ciphers meet modern cybersecurity. Register now for the ultimate CTF challenge.",
-  keywords: ["OBSCURA", "CTF", "Capture The Flag", "WiCyS", "Sathyabama", "cybersecurity", "competition"],
-};
+import SmoothScrollProvider from "@/components/ui/SmoothScroll";
 
 export default function ObscuraLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  return <SmoothScrollProvider>{children}</SmoothScrollProvider>;
 }
