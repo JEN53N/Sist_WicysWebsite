@@ -32,7 +32,7 @@ export const events: Event[] = [
   {
     id: "2",
     title: "Mind.exe",
-    category: "competition",
+    category: "Competition",
     date: "February 03, 2026",
     description:
       "Rapid Coding Challenge - Processing at maximum speed!",
