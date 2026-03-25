@@ -3,7 +3,7 @@
 export interface Event {
   id: string;
   title: string;
-  category: "workshop" | "lecture" | "hackathon" | "technical" | "discussion" | "Competition" | "guest lecture";
+  category: "workshop" | "lecture" | "hackathon" | "technical" | "discussion" | "competition" | "guest lecture";
   date: string;
   description: string;
   status: "past" | "upcoming";
