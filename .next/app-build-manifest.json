@@ -1,15 +1,15 @@
 {
   "pages": {
-    "/page": [
+    "/(main)/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+      "static/chunks/app/(main)/page.js"
     ],
-    "/layout": [
+    "/(main)/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
+      "static/css/app/(main)/layout.css",
+      "static/chunks/app/(main)/layout.js"
     ],
     "/obscura/page": [
       "static/chunks/webpack.js",
@@ -19,6 +19,7 @@
     "/obscura/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
+      "static/css/app/obscura/layout.css",
       "static/chunks/app/obscura/layout.js"
     ]
   }

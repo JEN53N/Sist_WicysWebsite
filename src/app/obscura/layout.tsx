@@ -1,16 +1,30 @@
 import type { Metadata } from "next";
+import Image from "next/image";
+import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "OBSCURA: The Forbidden Cipher | WiCyS CTF",
+  title: "OBSCURA 2026 | Capture The Flag — Sathyabama Institute of Science and Technology",
   description:
-    "OBSCURA — A Magical Capture The Flag Experience. Enter the realm where ancient ciphers meet modern cybersecurity. Register now for the ultimate CTF challenge.",
-  keywords: ["OBSCURA", "CTF", "Capture The Flag", "WiCyS", "Sathyabama", "cybersecurity", "competition"],
+    "OBSCURA is the flagship techno-cultural fest of Sathyabama Institute of Science and Technology — the collision of innovation and tradition, engineering and artistry.",
 };
 
-export default function ObscuraLayout({
+import BackgroundMusic from "@/components/ctf/BackgroundMusic";
+
+export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
-  return <>{children}</>;
+}>) {
+  return (
+    <html lang="en">
+      <body>
+        {/* Fixed mural background */}
+        <div className="bg-mural">
+          <Image src="/ctf/images/hero-bg.png" alt="" aria-hidden="true" fill priority style={{ objectFit: 'cover' }} />
+        </div>
+        <BackgroundMusic />
+        {children}
+      </body>
+    </html>
+  );
 }
