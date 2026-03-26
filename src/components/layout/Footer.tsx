@@ -1,8 +1,13 @@
+"use client";
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 import { Mail, MapPin, Twitter, Instagram, Linkedin, Github } from "lucide-react";
 
 export default function Footer() {
+  const pathname = usePathname();
+  if (pathname === "/obscura") return null;
+  
   return (
     <footer className="bg-dark-800 border-t border-dark-500/50" aria-label="Site footer">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
