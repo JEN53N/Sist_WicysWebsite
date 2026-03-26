@@ -33,15 +33,13 @@ export default function Treasures() {
       </div>
 
       <div style={{
-        display: "grid",
-        gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+        display: "flex",
         justifyContent: "center",
-        alignItems: "stretch",
-        gap: "2rem",
+        alignItems: "center",
         width: "100%",
-        maxWidth: "1000px"
+        maxWidth: "600px"
       }}>
-        {/* 1st Place */}
+        {/* Prize Pool Card */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -65,160 +63,36 @@ export default function Treasures() {
             backdropFilter: "blur(10px)",
             boxShadow: "0 0 40px rgba(212, 138, 32, 0.1)",
             position: "relative",
+            width: "100%",
           }}
         >
-          <div style={{ fontSize: "3rem", marginBottom: "0.5rem", WebkitFilter: "drop-shadow(0 0 10px rgba(255,215,0,0.5))", filter: "drop-shadow(0 0 10px rgba(255,215,0,0.5))" }}>🥇</div>
+          <div style={{ fontSize: "3rem", marginBottom: "0.5rem", WebkitFilter: "drop-shadow(0 0 10px rgba(255,215,0,0.5))", filter: "drop-shadow(0 0 10px rgba(255,215,0,0.5))" }}>🏆</div>
           <h3 style={{
             fontFamily: "var(--font-heading)",
-            fontSize: "1.2rem",
+            fontSize: "1.5rem",
             color: "#d4aa50",
             fontWeight: 700,
+            textTransform: "uppercase",
+            letterSpacing: "0.1em",
           }}>
-            1st Place
+            Prize Pool
           </h3>
           <div style={{
-            fontFamily: "var(--font-decorative)",
-            fontSize: "1.1rem",
-            color: "#d48a20",
-            fontStyle: "italic",
-            marginBottom: "1rem"
-          }}>
-            Grand Archmage
-          </div>
-          <div style={{
             fontFamily: "var(--font-heading)",
-            fontSize: "2.5rem",
+            fontSize: "3rem",
             fontWeight: 800,
             color: "#d48a20",
+            margin: "1rem 0",
           }}>
-            ₹5,000
+            ₹10,000
           </div>
           <div style={{
-            fontSize: "0.8rem",
-            color: "rgba(212, 138, 32, 0.5)",
-            marginTop: "0.5rem"
+            fontSize: "1rem",
+            color: "rgba(212, 138, 32, 0.7)",
+            textAlign: "center",
+            lineHeight: 1.6,
           }}>
-            + Certificates & Gifts
-          </div>
-        </motion.div>
-
-        {/* 2nd Place */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          whileHover={{ 
-            scale: 1.05, 
-            borderColor: "rgba(255, 255, 255, 0.2)",
-            boxShadow: "0 10px 40px rgba(255, 255, 255, 0.1)"
-          }}
-          whileTap={{ scale: 0.98 }}
-          transition={{ delay: 0.2, duration: 0.6 }}
-          style={{
-            background: "rgba(10, 5, 20, 0.6)",
-            border: "1px solid rgba(255, 255, 255, 0.05)",
-            borderRadius: "16px",
-            padding: "3rem 2rem",
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            gap: "1rem",
-            backdropFilter: "blur(10px)",
-            cursor: "pointer",
-          }}
-        >
-          <div style={{ fontSize: "3rem", marginBottom: "0.5rem" }}>🥈</div>
-          <h3 style={{
-            fontFamily: "var(--font-heading)",
-            fontSize: "1.2rem",
-            color: "#e0e0e0",
-            fontWeight: 700,
-          }}>
-            2nd Place
-          </h3>
-          <div style={{
-            fontFamily: "var(--font-decorative)",
-            fontSize: "1.1rem",
-            color: "#a68a56",
-            fontStyle: "italic",
-            marginBottom: "1rem"
-          }}>
-            Master Sorcerer
-          </div>
-          <div style={{
-            fontFamily: "var(--font-heading)",
-            fontSize: "2.5rem",
-            fontWeight: 800,
-            color: "#e0e0e0",
-          }}>
-            ₹3,000
-          </div>
-          <div style={{
-            fontSize: "0.8rem",
-            color: "rgba(212, 138, 32, 0.5)",
-            marginTop: "0.5rem"
-          }}>
-            + Certificates & Gifts
-          </div>
-        </motion.div>
-
-        {/* 3rd Place */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          whileHover={{ 
-            scale: 1.05, 
-            borderColor: "rgba(205, 127, 50, 0.3)",
-            boxShadow: "0 10px 40px rgba(205, 127, 50, 0.1)"
-          }}
-          whileTap={{ scale: 0.98 }}
-          transition={{ delay: 0.3, duration: 0.6 }}
-          style={{
-            background: "rgba(10, 5, 20, 0.6)",
-            border: "1px solid rgba(255, 255, 255, 0.05)",
-            borderRadius: "16px",
-            padding: "3rem 2rem",
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            gap: "1rem",
-            backdropFilter: "blur(10px)",
-            transition: "all 0.3s ease",
-          }}
-        >
-          <div style={{ fontSize: "3rem", marginBottom: "0.5rem" }}>🥉</div>
-          <h3 style={{
-            fontFamily: "var(--font-heading)",
-            fontSize: "1.2rem",
-            color: "#cd7f32",
-            fontWeight: 700,
-          }}>
-            3rd Place
-          </h3>
-          <div style={{
-            fontFamily: "var(--font-decorative)",
-            fontSize: "1.1rem",
-            color: "#cd7f32",
-            fontStyle: "italic",
-            marginBottom: "1rem"
-          }}>
-            Apprentice Mage
-          </div>
-          <div style={{
-            fontFamily: "var(--font-heading)",
-            fontSize: "2.5rem",
-            fontWeight: 800,
-            color: "#d48a20",
-          }}>
-            ₹1,500
-          </div>
-          <div style={{
-            fontSize: "0.8rem",
-            color: "rgba(212, 138, 32, 0.5)",
-            marginTop: "0.5rem"
-          }}>
-            + Certificates & Gifts
+            + Certificates & Vouchers for all participants
           </div>
         </motion.div>
       </div>

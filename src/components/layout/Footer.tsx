@@ -39,7 +39,7 @@ export default function Footer() {
               {[
                 { href: "/", label: "Home" },
                 { href: "/archive", label: "Archive" },
-                { href: "/team", label: "Our Team" },
+                { href: "/team", label: "Team" },
                 { href: "/upcoming", label: "Upcoming Events" },
                 { href: "/obscura", label: "OBSCURA CTF" },
               ].map((link) => (

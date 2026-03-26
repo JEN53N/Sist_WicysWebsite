@@ -37,33 +37,7 @@ export default function Home() {
             zIndex: 10,
           }}
         >
-          {/* Top Banner Tag */}
-          <div style={{
-            background: "rgba(58, 10, 13, 0.4)",
-            border: "1px solid rgba(255, 140, 0, 0.4)",
-            padding: "0.5rem 1.5rem",
-            borderRadius: "30px",
-            marginBottom: "4rem",
-            backdropFilter: "blur(10px)",
-          }}>
-            <div style={{
-              color: "var(--color-cream)",
-              textDecoration: "none",
-              fontSize: "0.7rem",
-              fontFamily: "var(--font-heading)",
-              letterSpacing: "0.15em",
-              display: "flex",
-              alignItems: "center",
-              gap: "0.5rem",
-              textTransform: "uppercase",
-            }}>
-             <span style={{ color: "var(--color-orange)" }}>●</span>
-             April 10, Dr. Remibai Jeppiaar Auditorium, Sathyabama Institute of Science and Technology
-             <div style={{ marginTop: "0.5rem", fontSize: "0.9rem", color: "var(--color-cream)" }}>
-                 🕘 9:00 AM - 6:00 PM
-             </div>
-            </div>
-          </div>
+
 
           {/* Main Title Banner */}
           <div style={{
@@ -73,7 +47,7 @@ export default function Home() {
             flexDirection: "column",
             alignItems: "center",
             justifyContent: "center",
-            marginBottom: "5rem",
+            marginBottom: "0.5rem",
             textAlign: "center",
           }}>
             <motion.h1 
@@ -116,6 +90,8 @@ export default function Home() {
               ))}
             </motion.h1>
             
+
+            
             <motion.div 
               initial={{ opacity: 0, scale: 0.8, filter: "blur(10px)" }}
               animate={{ opacity: 1, scale: 1, filter: "blur(0px)" }}
@@ -151,7 +127,71 @@ export default function Home() {
               />
             </motion.div>
             
-
+            {/* Event Details */}
+            <div style={{
+              background: "rgba(0, 0, 0, 0.3)",
+              border: "1px solid rgba(212, 138, 32, 0.3)",
+              borderRadius: "30px",
+              padding: "0.75rem 1.5rem",
+              marginTop: "1rem",
+              marginBottom: "0.5rem",
+              display: "inline-flex",
+              alignItems: "center",
+              gap: "0.75rem",
+              flexWrap: "wrap",
+              justifyContent: "center",
+            }}>
+              <div style={{
+                display: "flex",
+                alignItems: "center",
+                gap: "0.5rem",
+                color: "var(--color-gold)",
+                fontFamily: "var(--font-heading)",
+                fontSize: "0.8rem",
+                letterSpacing: "0.05em",
+                textTransform: "uppercase",
+              }}>
+                <span>📅</span>
+                <span>April 10, 2026</span>
+              </div>
+              <span style={{
+                color: "rgba(212, 138, 32, 0.5)",
+                fontSize: "1.2rem",
+                lineHeight: 1,
+              }}>|</span>
+              <div style={{
+                display: "flex",
+                alignItems: "center",
+                gap: "0.5rem",
+                color: "var(--color-gold)",
+                fontFamily: "var(--font-heading)",
+                fontSize: "0.8rem",
+                letterSpacing: "0.05em",
+                textTransform: "uppercase",
+              }}>
+                <span>🕘</span>
+                <span>9:00 AM – 6:00 PM</span>
+              </div>
+              <span style={{
+                color: "rgba(212, 138, 32, 0.5)",
+                fontSize: "1.2rem",
+                lineHeight: 1,
+              }}>|</span>
+              <div style={{
+                display: "flex",
+                alignItems: "center",
+                gap: "0.5rem",
+                color: "var(--color-gold)",
+                fontFamily: "var(--font-heading)",
+                fontSize: "0.8rem",
+                letterSpacing: "0.05em",
+                textTransform: "uppercase",
+              }}>
+                <span>📍</span>
+                <span>Sathyabama Institute, Chennai</span>
+              </div>
+            </div>
+            
           </div>
 
           {/* Countdown */}
@@ -159,7 +199,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 0.8 }}
-            style={{ marginTop: "1rem" }}
+            style={{ marginTop: "0" }}
           >
             <Countdown />
           </motion.div>

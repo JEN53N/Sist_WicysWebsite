@@ -183,17 +183,28 @@ export default function HomePage() {
               </p>
               <div className="flex flex-wrap gap-5 mb-8" style={{ color: "#6b7280", fontSize: "13px" }}>
                 <span>📅 April 10, 2026</span>
-                <span>🕘 9:00 AM onwards</span>
+                <span>🕘 9:00 AM – 6:00 PM</span>
                 <span>📍 Sathyabama Institute, Chennai</span>
               </div>
-              <Link
-                href="/obscura"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-sm"
-                style={{ background: "linear-gradient(135deg, #92400e, #d97706)", color: "#fef3c7" }}
-              >
-                ✦ Enter the Portal
-                <ArrowRight className="w-4 h-4" />
-              </Link>
+              <div className="flex flex-wrap gap-4">
+                <Link
+                  href="/obscura"
+                  className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-sm"
+                  style={{ background: "linear-gradient(135deg, #92400e, #d97706)", color: "#fef3c7" }}
+                >
+                  ✦ Enter the Portal
+                  <ArrowRight className="w-4 h-4" />
+                </Link>
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSdnJAA2mZ2gkSvCnmJVnFIskNTadKVgFhnb2nWl01rmhbvF4A/viewform"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-sm"
+                  style={{ background: "transparent", color: "#fbbf24", border: "1px solid rgba(251,191,36,0.4)" }}
+                >
+                  Register Now
+                </a>
+              </div>
             </div>
           </div>
         </div>
