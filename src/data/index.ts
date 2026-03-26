@@ -90,7 +90,7 @@ export const events: Event[] = [
     date: "February 28, 2025",
     description:
       "A magical CTF experience blending cryptography, steganography, and web exploitation challenges in an enchanted theme.",
-    status: "upcoming",
+    status: "past",
     highlight: true,
   },
   {
@@ -100,7 +100,7 @@ export const events: Event[] = [
     date: "March 20, 2025",
     description:
       "Learn to gather, analyze, and act on cyber threat intelligence using open-source platforms and OSINT techniques.",
-    status: "upcoming",
+    status: "past",
   },
   {
     id: "11",
@@ -108,7 +108,7 @@ export const events: Event[] = [
     category: "workshop",
     date: "Coming Soon",
     description: "A beginner-friendly workshop to kickstart your cybersecurity journey.",
-    status: "upcoming",
+    status: "past",
   },
   {
     id: "12",
@@ -116,7 +116,7 @@ export const events: Event[] = [
     category: "hackathon",
     date: "Coming Soon",
     description: "Defend the digital fortress - a cybersecurity challenge event.",
-    status: "upcoming",
+    status: "past",
   },
   {
     id: "13",
@@ -124,7 +124,7 @@ export const events: Event[] = [
     category: "technical",
     date: "Coming Soon",
     description: "Breaking barriers in cybersecurity with advanced techniques.",
-    status: "upcoming",
+    status: "past",
   },
   {
     id: "14",
@@ -132,7 +132,7 @@ export const events: Event[] = [
     category: "workshop",
     date: "Coming Soon",
     description: "Explore the unknown realms of ethical hacking and penetration testing.",
-    status: "upcoming",
+    status: "past",
   },
   {
     id: "15",
@@ -140,7 +140,7 @@ export const events: Event[] = [
     category: "competition",
     date: "Coming Soon",
     description: "A competitive event for the outside-the-box thinkers.",
-    status: "upcoming",
+    status: "past",
   },
 ];
 
