@@ -187,7 +187,7 @@ export const teamMembers: TeamMember[] = [
      name: "Joe",
      role: "Event Coordinator",
      bio: "2nd year student assisting with event planning and coordination.",
-     linkedin: "https://linkedin.com",
+     linkedin: "https://www.linkedin.com/in/claims-jose-christoper?utm_source=share_via&utm_content=profile&utm_medium=member_android",
      category: "coordinator",
    },
    {
@@ -195,7 +195,7 @@ export const teamMembers: TeamMember[] = [
      name: "Sam Daniel",
      role: "Event Coordinator",
      bio: "2nd year student assisting with event planning and coordination.",
-     linkedin: "https://linkedin.com",
+     linkedin: "https://www.linkedin.com/in/sam-daniel-4178bb339?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
      category: "coordinator",
    },
    {
@@ -227,7 +227,7 @@ export const teamMembers: TeamMember[] = [
      name: "Mrinaal Roshan R",
      role: "Chairperson",
      bio: "EC MEMBER - Serving as Chairperson for WiCyS Sathyabama Student Chapter.",
-     linkedin: "https://linkedin.com",
+     linkedin: "https://www.linkedin.com/in/mrinaal-roshan-89bb55369?utm_source=share_via&utm_content=profile&utm_medium=member_android",
      category: "chair",
    },
    {
@@ -235,7 +235,7 @@ export const teamMembers: TeamMember[] = [
      name: "Mohammed Tahsin K J",
      role: "Chairperson",
      bio: "EC MEMBER - Serving as Chairperson for WiCyS Sathyabama Student Chapter.",
-     linkedin: "https://linkedin.com",
+     linkedin: "https://www.linkedin.com/in/mohammed-tahsin-016b62337?utm_source=share_via&utm_content=profile&utm_medium=member_android",
      category: "chair",
    },
 ];
