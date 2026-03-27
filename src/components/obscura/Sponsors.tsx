@@ -118,25 +118,23 @@ export default function Sponsors() {
           }}
           style={{ display: "flex", alignItems: "center", cursor: "pointer" }}
           >
-            {p.logo ? (
-              <div style={{ textAlign: "center" }}>
+            <div style={{
+              background: "#fff", 
+              borderRadius: 8, 
+              padding: "0.8rem 1.5rem",
+              display: "inline-block",
+              textAlign: "center",
+              width: "120px"
+            }}>
+              {p.logo ? (
                 <img 
                   src={p.logo} 
                   alt={`${p.name} logo`}
-                  width={120}
-                  height={80}
-                  style={{ objectFit: 'contain' }}
+                  width={100}
+                  height={60}
+                  style={{ objectFit: 'contain', display: 'block', margin: '0 auto' }}
                 />
-              </div>
-            ) : (
-              <div style={{
-                background: "#fff", 
-                borderRadius: 8, 
-                padding: "0.8rem 1.5rem",
-                display: "inline-block",
-                textAlign: "center",
-                minWidth: "120px"
-              }}>
+              ) : (
                 <span style={{
                   fontFamily: "var(--font-heading)", 
                   fontSize: "1.2rem",
@@ -145,11 +143,11 @@ export default function Sponsors() {
                 }}>
                   {p.name}
                 </span>
-              </div>
-            )}
+              )}
+            </div>
           </motion.div>
         ))}
       </motion.div>
-    </section>
+      </section>
     );
 }
