@@ -143,61 +143,7 @@ export default function Sponsors() {
         ))}
       </motion.div>
 
-      {/* Previously Sponsored By */}
-      <motion.div
-        initial={{ opacity: 0, y: 50 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: false }}
-        transition={{ duration: 0.6, delay: 0.2 }}
-        style={{ maxWidth: 1100, margin: "4rem auto 0" }}
-      >
-        <div style={{
-          textAlign: "center", marginBottom: "2rem",
-          fontFamily: "var(--font-heading)", fontSize: "0.75rem",
-          letterSpacing: "0.2em", textTransform: "uppercase",
-          color: "var(--color-text-muted)",
-        }}>
-          Previously Sponsored By
-        </div>
-        <motion.div 
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: false, amount: 0.1 }}
-          variants={{
-            visible: {
-              transition: {
-                staggerChildren: 0.05,
-              },
-            },
-          }}
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fill, minmax(140px, 1fr))",
-            gap: "1rem",
-          }}
-        >
-          {previousSponsors.map((name) => (
-            <motion.div 
-              key={name} 
-              variants={{
-                hidden: { opacity: 0, scale: 0.8 },
-                visible: { opacity: 1, scale: 1 }
-              }} 
-              whileHover={{ scale: 1.1, backgroundColor: "rgba(255, 255, 255, 0.08)" }}
-              className="sponsor-card" 
-              style={{ padding: "1rem", minHeight: 70, cursor: "pointer" }}
-            >
-              <span style={{
-                fontFamily: "var(--font-heading)", fontSize: "0.75rem",
-                fontWeight: 600, color: "var(--color-text-secondary)",
-                letterSpacing: "0.05em", textAlign: "center",
-              }}>
-                {name}
-              </span>
-            </motion.div>
-          ))}
-        </motion.div>
-      </motion.div>
+
     </section>
   );
 }

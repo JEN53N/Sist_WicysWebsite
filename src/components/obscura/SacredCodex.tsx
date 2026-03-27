@@ -173,7 +173,7 @@ export default function SacredCodex() {
                           letterSpacing: "0.03em",
                           margin: 0,
                           lineHeight: 1.4,
-                          textAlign: "left"
+                          textAlign: "center"
                         }}>
                           {rule}
                         </p>
