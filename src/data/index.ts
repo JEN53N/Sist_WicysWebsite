@@ -21,39 +21,12 @@ export interface TeamMember {
 
 export const events: Event[] = [
   {
-    id: "1",
-    title: "Cyber Security Workshop",
-    category: "workshop",
-    date: "March 15, 2025",
-    description:
-      "Hands-on session covering password security, phishing awareness, and safe browsing practices for everyday users.",
-    status: "past",
-  },
-  {
     id: "3",
     title: "Sentinel",
     category: "workshop",
     date: "February 03, 2026",
     description:
       "A comprehensive workshop on fundamental cybersecurity concepts!",
-    status: "past",
-  },
-  {
-    id: "16",
-    title: "Cloud Security Essentials",
-    category: "workshop",
-    date: "October 9, 2025",
-    description:
-      "AWS and Azure security configurations, IAM best practices, and cloud-native threat detection strategies.",
-    status: "past",
-  },
-  {
-    id: "17",
-    title: "Threat Intelligence Workshop",
-    category: "workshop",
-    date: "March 20, 2025",
-    description:
-      "Learn to gather, analyze, and act on cyber threat intelligence using open-source platforms and OSINT techniques.",
     status: "past",
   },
   {
@@ -72,24 +45,6 @@ export const events: Event[] = [
     date: "February 03, 2026",
     description:
       "A conversation on women and cancer by Dr. Shilpa Germaine Alfred.",
-    status: "past",
-  },
-  {
-    id: "18",
-    title: "Incident Response & Digital Forensics",
-    category: "lecture",
-    date: "August 22, 2025",
-    description:
-      "Real-world case studies on how organizations handle security breaches and perform digital investigations.",
-    status: "past",
-  },
-  {
-    id: "19",
-    title: "Malware Analysis Bootcamp",
-    category: "technical",
-    date: "September 14, 2025",
-    description:
-      "Static and dynamic malware analysis techniques using sandboxed environments and reverse engineering tools.",
     status: "past",
   },
   {
