@@ -127,13 +127,21 @@ export default function Sponsors() {
               width: "120px"
             }}>
               {p.logo ? (
-                <img 
-                  src={p.logo} 
-                  alt={`${p.name} logo`}
-                  width={100}
-                  height={60}
-                  style={{ objectFit: 'contain', display: 'block', margin: '0 auto' }}
-                />
+                <div style={{
+                  background: "rgba(0, 0, 0, 0.3)",
+                  borderRadius: "12px",
+                  padding: "1rem",
+                  display: "inline-block",
+                  minWidth: "120px"
+                }}>
+                  <img 
+                    src={p.logo} 
+                    alt={`${p.name} logo`}
+                    width={100}
+                    height={60}
+                    style={{ objectFit: 'contain', display: 'block', margin: '0 auto' }}
+                  />
+                </div>
               ) : (
                 <span style={{
                   fontFamily: "var(--font-heading)", 
