@@ -33,3 +33,41 @@
  GET / 200 in 2325ms
 <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\Rajesh.P\Downloads\Sist_WicysWebsitenew\.next\cache\webpack\client-development\0.pack.gz_' -> 'C:\Users\Rajesh.P\Downloads\Sist_WicysWebsitenew\.next\cache\webpack\client-development\0.pack.gz'
  GET / 200 in 305ms
+ ✓ Compiled in 2.4s (826 modules)
+ ✓ Compiled in 2.8s (701 modules)
+ GET /obscura 200 in 2903ms
+ ✓ Compiled in 3.6s (701 modules)
+ GET /obscura 200 in 1107ms
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\Rajesh.P\Downloads\Sist_WicysWebsitenew\.next\cache\webpack\client-development\0.pack.gz_' -> 'C:\Users\Rajesh.P\Downloads\Sist_WicysWebsitenew\.next\cache\webpack\client-development\0.pack.gz'
+ ✓ Compiled in 2.2s (701 modules)
+ GET /obscura 200 in 164ms
+ ✓ Compiled in 1780ms (701 modules)
+ GET /obscura 200 in 217ms
+ ✓ Compiled in 1751ms (701 modules)
+ GET /obscura 200 in 119ms
+ ○ Compiling / ...
+ ✓ Compiled / in 2.2s (842 modules)
+ GET / 200 in 5978ms
+ GET /obscura 200 in 4016ms
+ GET / 200 in 525ms
+ GET / 200 in 251ms
+ ○ Compiling /archive ...
+ ✓ Compiled /archive in 2.9s (1557 modules)
+ GET /archive 200 in 3420ms
+ GET /archive 200 in 78ms
+ GET /archive 200 in 67ms
+ ✓ Compiled in 1242ms (851 modules)
+ GET /archive 200 in 631ms
+ ✓ Compiled in 2s (851 modules)
+ GET /archive 200 in 614ms
+ ✓ Compiled in 1097ms (851 modules)
+ GET /archive 200 in 482ms
+ ✓ Compiled in 684ms (851 modules)
+ GET /archive 200 in 241ms
+ GET / 200 in 621ms
+ GET /archive 200 in 551ms
+ ✓ Compiled in 1365ms (851 modules)
+ ✓ Compiled in 843ms (851 modules)
+ ✓ Compiled in 809ms (851 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\Rajesh.P\Downloads\Sist_WicysWebsitenew\.next\cache\webpack\server-development\12.pack.gz_' -> 'C:\Users\Rajesh.P\Downloads\Sist_WicysWebsitenew\.next\cache\webpack\server-development\12.pack.gz'
+ GET / 200 in 641ms
