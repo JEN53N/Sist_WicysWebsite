@@ -77,7 +77,7 @@ export default function Footer() {
                 display: "flex", alignItems: "center", gap: "1rem", color: "var(--color-text-secondary)", textDecoration: "none", fontSize: "0.9rem", transition: "color 0.3s"
               }}>
                 <Phone size={18} />
-                +91 9150225961 ~MR.Arjun , +91 6369113218 ~Christopher Jose
+                +91 9150225961 , +91 6369113218 
               </a>
               <div style={{
                 display: "flex", alignItems: "flex-start", gap: "1rem", color: "var(--color-text-secondary)", fontSize: "0.9rem", lineHeight: "1.6"

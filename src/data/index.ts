@@ -105,7 +105,7 @@ export const teamMembers: TeamMember[] = [
     name: "Dr. N. Nanthini",
     role: "Faculty Coordinator",
     bio: "Assistant Professor, Dept. of CSE. Guiding the chapter with academic excellence and professional mentorship.",
-    linkedin: "https://linkedin.com",
+    linkedin: "https://www.linkedin.com/in/dr-nanthini-natarajan-54a00a293/",
     category: "faculty",
   },
   {
@@ -162,7 +162,7 @@ export const teamMembers: TeamMember[] = [
     name: "Anisa Farha N",
     role: "Marketing Team Lead",
     bio: "Strategizes and executes marketing campaigns to grow the chapter's reach and presence across campus.",
-    linkedin: "https://linkedin.com",
+    linkedin: "https://www.linkedin.com/in/anisafarha58?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
     category: "lead",
   },
 
