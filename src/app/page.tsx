@@ -106,7 +106,15 @@ export default function HomePage() {
                   <div
                     className={`h-28 flex items-center justify-center text-4xl bg-gradient-to-br ${s.thumb}`}
                   >
-                    {s.emoji}
+                    {event.image ? (
+                      <img 
+                        src={event.image} 
+                        alt={event.title}
+                        className="w-full h-full object-cover"
+                      />
+                    ) : (
+                      s.emoji
+                    )}
                   </div>
                   <div className="p-4">
                     <div className="flex items-center justify-between mb-2">
