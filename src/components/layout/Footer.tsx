@@ -65,8 +65,8 @@ export default function Footer() {
             <div className="flex gap-3 mb-6">
               {[
                 { icon: Twitter, label: "Twitter", href: "https://twitter.com" },
-                { icon: Instagram, label: "Instagram", href: "https://instagram.com" },
-                { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com" },
+                { icon: Instagram, label: "Instagram", href: "http://instagram.com/wicys_sathyabama/" },
+                { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/company/wicys-sathyabama-student-chapter/posts/?feedView=all" },
                 { icon: Github, label: "GitHub", href: "https://github.com" },
               ].map(({ icon: Icon, label, href }) => (
                 <a

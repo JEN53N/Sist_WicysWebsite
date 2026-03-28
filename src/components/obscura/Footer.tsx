@@ -115,7 +115,7 @@ export default function Footer() {
             </h3>
             <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
               <a
-                href="https://www.instagram.com/wicys_sathyabama/"
+                href="http://instagram.com/wicys_sathyabama/"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
@@ -143,7 +143,7 @@ export default function Footer() {
                 <span>Instagram</span>
               </a>
               <a
-                href="https://www.linkedin.com/company/wicys-sathyabama-student-chapter/"
+                href="https://www.linkedin.com/company/wicys-sathyabama-student-chapter/posts/?feedView=all"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
