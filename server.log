@@ -2,178 +2,34 @@
 > wicys-sathyabama@1.0.0 dev
 > next dev
 
- ⚠ Port 3000 is in use, trying 3001 instead.
-   ▲ Next.js 15.1.0
-   - Local:        http://localhost:3001
-   - Network:      http://192.168.1.8:3001
+ ⚠ Port 3000 is in use by process 9828, using available port 3003 instead.
+   ▲ Next.js 15.5.14
+   - Local:        http://localhost:3003
+   - Network:      http://10.238.169.179:3003
 
  ✓ Starting...
- ✓ Ready in 4s
- ○ Compiling / ...
- ✓ Compiled / in 8.3s (678 modules)
- GET / 200 in 5940ms
- ✓ Compiled in 1342ms (322 modules)
- GET / 200 in 9801ms
- ○ Compiling /_not-found ...
- ✓ Compiled /_not-found in 569ms (668 modules)
- GET /upcoming 404 in 783ms
- GET /team 404 in 22ms
- GET /team 404 in 47ms
- ✓ Compiled in 715ms (322 modules)
- ○ Compiling /_not-found ...
- ✓ Compiled /_not-found in 704ms (657 modules)
- GET /team 404 in 1021ms
- GET /team 404 in 364ms
- ✓ Compiled in 1321ms (657 modules)
- GET /team 404 in 936ms
- GET /team 404 in 46ms
- GET /team 404 in 261ms
- ✓ Compiled in 520ms (325 modules)
- GET /team 404 in 39ms
- GET /team 404 in 77ms
- ✓ Compiled in 975ms (657 modules)
- ○ Compiling /team ...
- ✓ Compiled /team in 7.4s (1462 modules)
- GET /upcoming 404 in 1481ms
- GET /team 200 in 8183ms
- GET /upcoming 404 in 370ms
- ○ Compiling /archive ...
- ✓ Compiled /archive in 708ms (1476 modules)
- GET /archive 200 in 898ms
- GET /archive 200 in 29ms
- GET /team 200 in 49ms
- GET /archive 200 in 283ms
- GET /team 200 in 46ms
- ✓ Compiled in 2.5s (1486 modules)
- GET /team 200 in 387ms
- ✓ Compiled in 1464ms (1486 modules)
- GET /team 200 in 553ms
- GET /team 200 in 627ms
- ✓ Compiled in 546ms (727 modules)
- GET /team 200 in 45ms
- ✓ Compiled in 1165ms (1472 modules)
- GET /team 200 in 203ms
- ○ Compiling /upcoming ...
- ✓ Compiled /upcoming in 1464ms (1477 modules)
- GET /upcoming 200 in 1847ms
- GET /upcoming 200 in 20ms
- ✓ Compiled in 3.1s (1479 modules)
- GET /upcoming 200 in 485ms
- GET /upcoming 200 in 156ms
- ✓ Compiled in 1307ms (1493 modules)
- GET /upcoming 200 in 318ms
- ✓ Compiled in 1137ms (1493 modules)
- GET /upcoming 200 in 254ms
- GET /archive 200 in 656ms
- GET /team 200 in 70ms
- GET /upcoming 200 in 69ms
- ✓ Compiled in 684ms (729 modules)
- GET /upcoming 200 in 236ms
- ✓ Compiled in 572ms (729 modules)
- GET /upcoming 200 in 48ms
- ✓ Compiled in 1791ms (1493 modules)
- GET /upcoming 200 in 233ms
- GET /team 200 in 31ms
- GET /team 200 in 327ms
- ✓ Compiled in 1831ms (1493 modules)
- GET /team 200 in 386ms
- ✓ Compiled in 885ms (1493 modules)
- GET /team 200 in 269ms
- ✓ Compiled in 1072ms (1493 modules)
- GET /team 200 in 257ms
- GET /team 200 in 404ms
- ✓ Compiled in 1967ms (1493 modules)
- GET /team 200 in 415ms
- GET /team 200 in 190ms
- ✓ Compiled in 1738ms (1493 modules)
- GET /team 200 in 282ms
- ✓ Compiled in 1050ms (1493 modules)
- GET /team 200 in 213ms
- ✓ Compiled in 1939ms (1493 modules)
- GET /team 200 in 238ms
- ✓ Compiled in 1086ms (1493 modules)
- GET /team 200 in 266ms
- ✓ Compiled in 1577ms (1493 modules)
- GET /team 200 in 367ms
- ✓ Compiled in 1266ms (1493 modules)
- GET /team 200 in 265ms
- ✓ Compiled in 1063ms (1493 modules)
- GET /team 200 in 264ms
- ✓ Compiled in 1261ms (1493 modules)
- GET /team 200 in 298ms
- GET /team 200 in 341ms
- GET /team 200 in 75ms
- ✓ Compiled in 1811ms (1493 modules)
- GET /team 200 in 221ms
- ✓ Compiled in 1106ms (1493 modules)
- GET /team 200 in 250ms
- ✓ Compiled in 890ms (1493 modules)
- GET /team 200 in 271ms
- GET /team 200 in 340ms
- ✓ Compiled in 3.1s (1493 modules)
- GET /team 200 in 655ms
- ✓ Compiled in 2.6s (1493 modules)
- GET /team 200 in 577ms
- ✓ Compiled in 937ms (1493 modules)
- GET /team 200 in 291ms
- ✓ Compiled in 1207ms (1493 modules)
- GET /team 200 in 295ms
- ✓ Compiled in 1590ms (1493 modules)
- GET /team 200 in 203ms
- ✓ Compiled in 2.3s (1493 modules)
- GET /team 200 in 336ms
- ✓ Compiled in 1762ms (1493 modules)
- GET /team 200 in 269ms
- ○ Compiling / ...
- ✓ Compiled / in 1929ms (774 modules)
- GET / 200 in 2302ms
- GET / 200 in 39ms
- ✓ Compiled in 1552ms (1503 modules)
- GET / 200 in 473ms
- GET /archive 200 in 39ms
- ✓ Compiled in 953ms (1503 modules)
- GET /archive 200 in 241ms
- GET /team 200 in 30ms
- ✓ Compiled in 1728ms (1503 modules)
- GET /team 200 in 242ms
- ✓ Compiled in 1738ms (1503 modules)
- GET /team 200 in 457ms
- ✓ Compiled in 2.5s (1503 modules)
- GET /team 200 in 535ms
- GET /archive 200 in 31ms
- GET /team 200 in 347ms
- ✓ Compiled in 1360ms (774 modules)
- GET /archive 200 in 348ms
- ✓ Compiled in 2.2s (1503 modules)
- GET /archive 200 in 402ms
+ ✓ Ready in 9.1s
  ○ Compiling /obscura ...
- ✓ Compiled /obscura in 3.9s (1553 modules)
- GET /obscura 200 in 4269ms
- GET /obscura 200 in 72ms
- GET /obscura 200 in 64ms
- GET /archive 200 in 335ms
- ✓ Compiled in 3.4s (1566 modules)
- GET /obscura 200 in 714ms
- ✓ Compiled in 2.4s (1566 modules)
- GET /obscura 200 in 284ms
- ✓ Compiled in 1672ms (1566 modules)
- GET /obscura 200 in 220ms
- ✓ Compiled in 1885ms (1566 modules)
- GET /obscura 200 in 252ms
- GET /obscura 200 in 427ms
- ✓ Compiled in 3.8s (1566 modules)
- GET /obscura 200 in 376ms
- ✓ Compiled in 3.9s (1566 modules)
- GET /obscura 200 in 711ms
- GET /obscura 200 in 928ms
- ✓ Compiled in 4.9s (1566 modules)
- GET /obscura 200 in 517ms
- ✓ Compiled in 5.7s (1566 modules)
- GET /obscura 200 in 704ms
- ✓ Compiled in 4.4s (1566 modules)
- GET /obscura 200 in 580ms
- ✓ Compiled in 2.1s (1566 modules)
- GET /obscura 200 in 263ms
- ✓ Compiled in 3.6s (1566 modules)
- GET /obscura 200 in 296ms
- GET /obscura 200 in 1438ms
+ ✓ Compiled /obscura in 15.6s (1523 modules)
+ ✓ Compiled in 1858ms (697 modules)
+ GET /obscura 200 in 17684ms
+ ✓ Compiled in 2.3s (1523 modules)
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1619ms (1501 modules)
+ GET /obscura 404 in 2241ms
+ GET /obscura 200 in 1433ms
+ ○ Compiling / ...
+ ✓ Compiled / in 1828ms (1543 modules)
+ GET / 200 in 2674ms
+ ✓ Compiled in 1588ms (701 modules)
+ GET /obscura 200 in 834ms
+ GET /obscura 200 in 142ms
+ ✓ Compiled in 1815ms (1543 modules)
+ GET /obscura 200 in 371ms
+ ✓ Compiled in 1239ms (1527 modules)
+ GET /obscura 200 in 481ms
+ ○ Compiling / ...
+ ✓ Compiled / in 526ms (842 modules)
+ GET / 200 in 2325ms
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\Rajesh.P\Downloads\Sist_WicysWebsitenew\.next\cache\webpack\client-development\0.pack.gz_' -> 'C:\Users\Rajesh.P\Downloads\Sist_WicysWebsitenew\.next\cache\webpack\client-development\0.pack.gz'
+ GET / 200 in 305ms
