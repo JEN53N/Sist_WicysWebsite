@@ -31,9 +31,22 @@ export default function TeamPage() {
           <h1 className="text-3xl md:text-4xl font-bold text-white mt-2 mb-4">
             Team
           </h1>
-          <p className="text-gray-400 max-w-2xl mx-auto">
+          <p className="text-gray-400 max-w-2xl mx-auto mb-6">
             The passionate individuals driving WiCyS Sathyabama forward, empowering women in cybersecurity.
           </p>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLScm_DKdL6alMaxyC0SyuQJ5CPYu2cEYyCr_arrS29rIg4T3UQ/viewform?usp=dialog"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-6 py-2.5 rounded-lg font-semibold text-sm transition-all duration-200"
+            style={{
+              background: "linear-gradient(135deg, #6366f1, #a855f7)",
+              color: "#ffffff",
+              boxShadow: "0 0 20px rgba(168,85,247,0.3)",
+            }}
+          >
+            ✦ Join Our Team
+          </a>
         </div>
 
         {grouped.map((category) => {
