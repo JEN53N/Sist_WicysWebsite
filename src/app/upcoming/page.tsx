@@ -13,8 +13,8 @@ export default function UpcomingPage() {
   const [timeLeft, setTimeLeft] = useState<TimeLeft>({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
   useEffect(() => {
-    // Target date: April 7, 2026
-    const targetDate = new Date("2026-04-06T23:59:59+05:30").getTime();
+    // Target date: April 10, 2026
+    const targetDate = new Date("2026-04-10T23:59:59+05:30").getTime();
 
     const updateTimer = () => {
       const now = new Date().getTime();
@@ -53,7 +53,7 @@ export default function UpcomingPage() {
         </div>
 
         <div className="max-w-4xl mx-auto">
-          <div 
+          <div
             className="rounded-2xl relative overflow-hidden p-8 md:p-12"
             style={{
               background: "linear-gradient(135deg, #1a1503 0%, #0d0902 60%, #1a1503 100%)",
@@ -65,7 +65,7 @@ export default function UpcomingPage() {
               className="absolute top-0 right-0 w-64 h-64 rounded-full pointer-events-none"
               style={{ background: "radial-gradient(circle, rgba(251,191,36,0.08) 0%, transparent 70%)" }}
             />
-            
+
             <div className="relative z-10">
               <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-8">
                 <div className="flex-1">
@@ -74,8 +74,8 @@ export default function UpcomingPage() {
                     <span className="w-2 h-2 rounded-full bg-amber-400"></span>
                     HEADLINE EVENT
                   </div>
-                  
-                  <h2 
+
+                  <h2
                     className="text-4xl md:text-5xl font-bold mb-2"
                     style={{
                       fontFamily: "var(--font-heading)",
@@ -85,21 +85,21 @@ export default function UpcomingPage() {
                   >
                     OBSCURA
                   </h2>
-                  
-                  <h3 
+
+                  <h3
                     className="text-lg md:text-xl font-semibold mb-1"
                     style={{ color: "var(--color-cream)" }}
                   >
                     The Forbidden Cipher
                   </h3>
-                  
-                  <p 
+
+                  <p
                     className="text-base mb-6"
                     style={{ color: "var(--color-orange)" }}
                   >
-                    A Magical Capture The Flag Experience
+                    A Magical National Level Capture The Flag Experience
                   </p>
-                  
+
                   {/* Event details */}
                   <div className="flex flex-wrap gap-4 mb-6 text-sm">
                     <div className="flex items-center gap-2 text-amber-200/80">
@@ -115,14 +115,14 @@ export default function UpcomingPage() {
                       <span>Sathyabama Institute, Chennai</span>
                     </div>
                   </div>
-                  
-                  <p 
+
+                  <p
                     className="text-base leading-relaxed mb-8"
                     style={{ color: "#a89070", maxWidth: "600px" }}
                   >
                     Enter an enchanted realm where ancient ciphers meet modern exploitation. OBSCURA challenges participants with cryptography, steganography, web security, and reverse engineering — all wrapped in a uniquely immersive magical theme.
                   </p>
-                  
+
                   {/* Buttons */}
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Link
@@ -140,7 +140,7 @@ export default function UpcomingPage() {
                       </svg>
                     </Link>
                     <a
-                      //href="https://docs.google.com/forms/d/e/1FAIpQLSdnJAA2mZ2gkSvCnmJVnFIskNTadKVgFhnb2nWl01rmhbvF4A/viewform"
+                      href="https://docs.google.com/forms/d/e/1FAIpQLSffz93BunAfJZpZ77awTWiuEhx9R5FMeuzMt4R9-wGAdTTUew/viewform"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg font-semibold text-sm transition-all"
@@ -157,13 +157,13 @@ export default function UpcomingPage() {
                     </a>
                   </div>
                 </div>
-                
+
                 {/* Countdown section */}
                 <div className="lg:w-72 flex flex-col items-center lg:items-end">
                   <div className="text-amber-400 text-sm font-semibold tracking-wider mb-4 text-center lg:text-right">
                     EVENT BEGINS IN
                   </div>
-                  
+
                   <div className="flex gap-3">
                     {[
                       { val: timeLeft.days, label: "DAYS" },
@@ -172,7 +172,7 @@ export default function UpcomingPage() {
                       { val: timeLeft.seconds, label: "SECONDS" },
                     ].map((item) => (
                       <div key={item.label} className="flex flex-col items-center">
-                        <div 
+                        <div
                           className="w-16 h-16 md:w-20 md:h-20 rounded-xl flex items-center justify-center text-2xl md:text-3xl font-bold mb-2"
                           style={{
                             background: "rgba(15,23,42,0.8)",

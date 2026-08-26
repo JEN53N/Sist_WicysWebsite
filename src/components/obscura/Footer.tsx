@@ -30,7 +30,7 @@ export default function Footer() {
           <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
             <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
               <svg width="40" height="40" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M50 0L42 18L24 10L32 28L14 36L32 44L24 62L42 54L50 72L58 54L76 62L68 44L86 36L68 28L76 10L58 18L50 0Z" fill="var(--color-cream)"/>
+                <path d="M50 0L42 18L24 10L32 28L14 36L32 44L24 62L42 54L50 72L58 54L76 62L68 44L86 36L68 28L76 10L58 18L50 0Z" fill="var(--color-cream)" />
               </svg>
             </div>
             <h2 style={{
@@ -49,7 +49,7 @@ export default function Footer() {
               letterSpacing: "0.05em",
               maxWidth: "280px"
             }}>
-              Capture The Flag — Where Ancient Meets Future
+              National Level Capture The Flag experience — Where Ancient Meets Future
             </p>
           </div>
 
@@ -77,17 +77,17 @@ export default function Footer() {
                 display: "flex", alignItems: "center", gap: "1rem", color: "var(--color-text-secondary)", textDecoration: "none", fontSize: "0.9rem", transition: "color 0.3s"
               }}>
                 <Phone size={18} />
-                +91 9150225961, +91 6369113218 
+                +91 9150225961, +91 6369113218
               </a>
               <div style={{
                 display: "flex", alignItems: "flex-start", gap: "1rem", color: "var(--color-text-secondary)", fontSize: "0.9rem", lineHeight: "1.6"
               }}>
                 <MapPin size={18} style={{ marginTop: "4px", flexShrink: 0 }} />
                 <span>
-                  <span style={{ whiteSpace: "nowrap" }}>Sathyabama Institute of Science and Technology</span><br/>
-                  Jeppiaar Nagar,<br/>
-                  Rajiv Gandhi Salai,<br/>
-                  Chennai - 600 119,<br/>
+                  <span style={{ whiteSpace: "nowrap" }}>Sathyabama Institute of Science and Technology</span><br />
+                  Jeppiaar Nagar,<br />
+                  Rajiv Gandhi Salai,<br />
+                  Chennai - 600 119,<br />
                   Tamil Nadu, India
                 </span>
               </div>
@@ -193,8 +193,8 @@ export default function Footer() {
           }}>
             © 2026 OBSCURA Capture The Flag — WiCyS Student Chapter, Sathyabama Institute of Science and Technology. All rights reserved.
           </p>
-          
-          <button 
+
+          <button
             style={{
               position: "absolute",
               right: 0,

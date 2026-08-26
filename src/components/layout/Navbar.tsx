@@ -90,6 +90,26 @@ export default function Navbar() {
         >
           ✦ OBSCURA
         </Link>
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLScm_DKdL6alMaxyC0SyuQJ5CPYu2cEYyCr_arrS29rIg4T3UQ/viewform?usp=dialog"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            marginLeft: 8,
+            padding: "7px 16px",
+            borderRadius: 8,
+            background: "linear-gradient(135deg, #6366f1, #a855f7)",
+            color: "#ffffff",
+            fontSize: 12,
+            fontWeight: 600,
+            textDecoration: "none",
+            letterSpacing: "0.02em",
+            boxShadow: "0 0 12px rgba(168,85,247,0.25)",
+            transition: "all 0.2s ease",
+          }}
+        >
+          Join Team
+        </a>
       </div>
 
       {/* Mobile toggle */}
@@ -144,6 +164,23 @@ export default function Navbar() {
           >
             ✦ OBSCURA – The Forbidden Cipher
           </Link>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLScm_DKdL6alMaxyC0SyuQJ5CPYu2cEYyCr_arrS29rIg4T3UQ/viewform?usp=dialog"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block text-center mt-2"
+            style={{
+              padding: "10px 14px",
+              borderRadius: 8,
+              background: "linear-gradient(135deg, #6366f1, #a855f7)",
+              color: "#ffffff",
+              fontSize: 13,
+              fontWeight: 600,
+              textDecoration: "none",
+            }}
+          >
+            Join Team
+          </a>
         </div>
       )}
     </nav>

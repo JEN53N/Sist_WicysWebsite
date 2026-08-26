@@ -267,7 +267,7 @@ export default function Home() {
             gap: "1.5rem"
           }}>
             <p>
-              Step into the Chamber of Codes. <strong style={{ color: "var(--color-cream)", fontWeight: 700, fontSize: "1.2rem" }}>OBSCURA</strong>, hosted by WiCyS Sathyabama, is a high-stakes, Harry Potter-inspired CTF designed to test the limits of logic and creativity in a single-day sprint. 
+              Step into the Chamber of Codes. <strong style={{ color: "var(--color-cream)", fontWeight: 700, fontSize: "1.2rem" }}>OBSCURA</strong>, a National Level CTF hosted by WiCyS Sathyabama, is a high-stakes, Harry Potter-inspired National Level CTF designed to test the limits of logic and creativity in a single-day sprint. 
             </p>
             <p style={{ color: "var(--color-text-secondary)" }}>
               This flagship challenge at Sathyabama Institute of Science and Technology invites participants to bridge the gap between technical expertise and magical strategy. From solving ancient riddles in the script to mastering modern cybersecurity charms, <strong style={{ color: "var(--color-gold)" }}>OBSCURA</strong> is the ultimate quest for the next generation of tech-wizards.
