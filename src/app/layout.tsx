@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   },
   description:
     "WiCyS Student Chapter at Sathyabama Institute of Science and Technology, Chennai. Empowering women in cybersecurity through events, workshops, and community.",
-  keywords: ["WiCyS", "Women in CyberSecurity", "Sathyabama", "cybersecurity", "CTF", "OBSCURA", "Chennai"],
+  keywords: ["WiCyS", "Women in CyberSecurity", "Sathyabama", "cybersecurity", "CTF", "Chennai"],
   authors: [{ name: "WiCyS Sathyabama Student Chapter" }],
   metadataBase: new URL("https://wicys-sathyabama.vercel.app"),
 };

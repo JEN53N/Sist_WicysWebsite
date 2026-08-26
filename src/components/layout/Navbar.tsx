@@ -27,8 +27,6 @@ export default function Navbar() {
 
   useEffect(() => { setIsOpen(false); }, [pathname]);
 
-  if (pathname === "/obscura") return null;
-
   return (
     <nav
       className="fixed top-0 left-0 right-0 z-50 transition-all duration-300"
@@ -74,22 +72,6 @@ export default function Navbar() {
             {link.label}
           </Link>
         ))}
-        <Link
-          href="/obscura"
-          style={{
-            marginLeft: 8,
-            padding: "7px 16px",
-            borderRadius: 8,
-            background: "linear-gradient(135deg, #92400e, #d97706)",
-            color: "#fef3c7",
-            fontSize: 12,
-            fontWeight: 600,
-            textDecoration: "none",
-            letterSpacing: "0.02em",
-          }}
-        >
-          ✦ OBSCURA
-        </Link>
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLScm_DKdL6alMaxyC0SyuQJ5CPYu2cEYyCr_arrS29rIg4T3UQ/viewform?usp=dialog"
           target="_blank"
@@ -149,21 +131,6 @@ export default function Navbar() {
               {link.label}
             </Link>
           ))}
-          <Link
-            href="/obscura"
-            className="block text-center mt-2"
-            style={{
-              padding: "10px 14px",
-              borderRadius: 8,
-              background: "linear-gradient(135deg, #92400e, #d97706)",
-              color: "#fef3c7",
-              fontSize: 13,
-              fontWeight: 600,
-              textDecoration: "none",
-            }}
-          >
-            ✦ OBSCURA – The Forbidden Cipher
-          </Link>
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLScm_DKdL6alMaxyC0SyuQJ5CPYu2cEYyCr_arrS29rIg4T3UQ/viewform?usp=dialog"
             target="_blank"
